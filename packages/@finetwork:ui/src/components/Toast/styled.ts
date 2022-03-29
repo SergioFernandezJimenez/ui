@@ -251,6 +251,7 @@ export const StyledCloseButton = styled(ToastPrimitive.Close, {
   position: 'absolute',
   top: 8,
   right: 8,
+  zIndex: 9,
   '& svg': {
     color: '#aaa',
     transition: '.3s',
